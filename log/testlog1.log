@@ -1,0 +1,32 @@
+2017-10-11 14:27:44,667 [TestNG] INFO Accommodation_booking_for_adults_with_children - Test Case Started
+2017-10-11 14:27:47,331 [TestNG] INFO Accommodation_search_apply_filters_for_search_results - Browser Opened
+2017-10-11 14:27:49,841 [TestNG] INFO Accommodation_search_apply_filters_for_search_results - Test Case Started
+2017-10-11 14:27:53,631 [TestNG] INFO Accommodation_search_apply_filters_for_search_results - Login Successful
+2017-10-11 14:27:53,680 [TestNG] INFO Accommodation_search_apply_filters_for_search_results - Navigating to customer search page
+2017-10-11 14:27:55,222 [TestNG] INFO Accommodation_booking_for_adults_with_children - Browser Opened
+2017-10-11 14:27:58,330 [TestNG] INFO Accommodation_search_apply_filters_for_search_results - Navigated to customer search page
+2017-10-11 14:27:58,330 [TestNG] INFO Accommodation_search_apply_filters_for_search_results - Searching Customer
+2017-10-11 14:28:00,487 [TestNG] INFO Accommodation_booking_for_adults_with_children - Test Case Started
+2017-10-11 14:28:04,830 [TestNG] INFO Accommodation_search_apply_filters_for_search_results - Selecting Customer
+2017-10-11 14:28:06,423 [TestNG] INFO Accommodation_booking_for_adults_with_children - Login Successful
+2017-10-11 14:28:06,423 [TestNG] INFO Accommodation_booking_for_adults_with_children - Searching Customer
+2017-10-11 14:28:06,423 [TestNG] INFO Accommodation_booking_for_adults_with_children - Navigating to customer search page
+2017-10-11 14:28:10,089 [TestNG] INFO Accommodation_booking_for_adults_with_children - Navigated to customer search page
+2017-10-11 14:28:10,089 [TestNG] INFO Accommodation_booking_for_adults_with_children - Selecting Customer
+2017-10-11 14:28:18,561 [TestNG] INFO Accommodation_booking_for_adults_with_children - Customer Selected
+2017-10-11 14:28:18,562 [TestNG] INFO Accommodation_booking_for_adults_with_children - Applying search Filters
+2017-10-11 14:28:29,742 [TestNG] INFO Accommodation_search_apply_filters_for_search_results - Customer Selected
+2017-10-11 14:28:29,743 [TestNG] INFO Accommodation_search_apply_filters_for_search_results - Applying search Filters
+2017-10-11 14:28:35,370 [TestNG] INFO Accommodation_booking_for_adults_with_children - Hotel Search Complete
+2017-10-11 14:28:35,371 [TestNG] INFO Accommodation_booking_for_adults_with_children - Selecting Room Type
+2017-10-11 14:28:40,301 [TestNG] INFO Accommodation_booking_for_adults_with_children - Room Type Selected
+2017-10-11 14:28:44,187 [TestNG] INFO Accommodation_booking_for_adults_with_children - Entering Passenger details
+2017-10-11 14:28:49,488 [TestNG] INFO Accommodation_search_apply_filters_for_search_results - Hotel Search Complete
+2017-10-11 14:28:53,016 [TestNG] INFO Accommodation_booking_for_adults_with_children - Entered Passenger details
+2017-10-11 14:28:58,500 [TestNG] INFO Accommodation_booking_for_adults_with_children - Entering Payment Details
+2017-10-11 14:29:04,387 [TestNG] INFO Accommodation_booking_for_adults_with_children - Completed Payment Details
+2017-10-11 14:29:17,804 [TestNG] INFO Accommodation_booking_for_adults_with_children - Hotel Book Complete
+2017-10-11 14:35:28,401 [main] INFO Accommodation_search_apply_filters_for_search_results - Browser Opened
+2017-10-11 14:35:31,320 [main] INFO Accommodation_search_apply_filters_for_search_results - Test Case Started
+2017-10-11 14:37:01,497 [main] INFO Accommodation_search_apply_filters_for_search_results - Browser Opened
+2017-10-11 14:37:05,427 [main] INFO Accommodation_search_apply_filters_for_search_results - Test Case Started

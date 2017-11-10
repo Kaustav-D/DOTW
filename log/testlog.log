@@ -1,0 +1,32 @@
+2017-10-11 14:27:44,667 - Accommodation_booking_for_adults_with_children -INFO - Test Case Started
+2017-10-11 14:27:47,331 - Accommodation_search_apply_filters_for_search_results -INFO - Browser Opened
+2017-10-11 14:27:49,841 - Accommodation_search_apply_filters_for_search_results -INFO - Test Case Started
+2017-10-11 14:27:53,631 - Accommodation_search_apply_filters_for_search_results -INFO - Login Successful
+2017-10-11 14:27:53,680 - Accommodation_search_apply_filters_for_search_results -INFO - Navigating to customer search page
+2017-10-11 14:27:55,222 - Accommodation_booking_for_adults_with_children -INFO - Browser Opened
+2017-10-11 14:27:58,330 - Accommodation_search_apply_filters_for_search_results -INFO - Navigated to customer search page
+2017-10-11 14:27:58,330 - Accommodation_search_apply_filters_for_search_results -INFO - Searching Customer
+2017-10-11 14:28:00,487 - Accommodation_booking_for_adults_with_children -INFO - Test Case Started
+2017-10-11 14:28:04,830 - Accommodation_search_apply_filters_for_search_results -INFO - Selecting Customer
+2017-10-11 14:28:06,423 - Accommodation_booking_for_adults_with_children -INFO - Login Successful
+2017-10-11 14:28:06,423 - Accommodation_booking_for_adults_with_children -INFO - Searching Customer
+2017-10-11 14:28:06,423 - Accommodation_booking_for_adults_with_children -INFO - Navigating to customer search page
+2017-10-11 14:28:10,089 - Accommodation_booking_for_adults_with_children -INFO - Navigated to customer search page
+2017-10-11 14:28:10,089 - Accommodation_booking_for_adults_with_children -INFO - Selecting Customer
+2017-10-11 14:28:18,561 - Accommodation_booking_for_adults_with_children -INFO - Customer Selected
+2017-10-11 14:28:18,562 - Accommodation_booking_for_adults_with_children -INFO - Applying search Filters
+2017-10-11 14:28:29,742 - Accommodation_search_apply_filters_for_search_results -INFO - Customer Selected
+2017-10-11 14:28:29,743 - Accommodation_search_apply_filters_for_search_results -INFO - Applying search Filters
+2017-10-11 14:28:35,370 - Accommodation_booking_for_adults_with_children -INFO - Hotel Search Complete
+2017-10-11 14:28:35,371 - Accommodation_booking_for_adults_with_children -INFO - Selecting Room Type
+2017-10-11 14:28:40,301 - Accommodation_booking_for_adults_with_children -INFO - Room Type Selected
+2017-10-11 14:28:44,187 - Accommodation_booking_for_adults_with_children -INFO - Entering Passenger details
+2017-10-11 14:28:49,488 - Accommodation_search_apply_filters_for_search_results -INFO - Hotel Search Complete
+2017-10-11 14:28:53,016 - Accommodation_booking_for_adults_with_children -INFO - Entered Passenger details
+2017-10-11 14:28:58,500 - Accommodation_booking_for_adults_with_children -INFO - Entering Payment Details
+2017-10-11 14:29:04,387 - Accommodation_booking_for_adults_with_children -INFO - Completed Payment Details
+2017-10-11 14:29:17,804 - Accommodation_booking_for_adults_with_children -INFO - Hotel Book Complete
+2017-10-11 14:35:28,401 - Accommodation_search_apply_filters_for_search_results -INFO - Browser Opened
+2017-10-11 14:35:31,320 - Accommodation_search_apply_filters_for_search_results -INFO - Test Case Started
+2017-10-11 14:37:01,497 - Accommodation_search_apply_filters_for_search_results -INFO - Browser Opened
+2017-10-11 14:37:05,427 - Accommodation_search_apply_filters_for_search_results -INFO - Test Case Started

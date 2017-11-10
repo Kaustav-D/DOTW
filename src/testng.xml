@@ -1,0 +1,9 @@
+<!--parallel="tests" thread-count="2"-->
+<suite name="DOTWsuite">
+<test name="MyAdminSmokeOne" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="automationFramework.Accommodation_search_apply_filters_for_search_results" />
+</classes> 
+</test>
+</suite>

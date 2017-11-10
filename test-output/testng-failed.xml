@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DOTWsuite]">
+  <parameter name="browsername" value="CH"/>
+  <test name="MyAdminSmokeOne(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="automationFramework.Accommodation_search_apply_filters_for_search_results">
+        <methods>
+          <include name="searchaccomodation"/>
+          <include name="afterTest"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_search_apply_filters_for_search_results -->
+    </classes>
+  </test> <!-- MyAdminSmokeOne(failed) -->
+</suite> <!-- Failed suite [DOTWsuite] -->
