@@ -59,6 +59,7 @@ public class Accommodation_search_apply_filters_for_search_results {
 	@Parameters({ "browsername" })
 	public void login(String browsername) throws Exception {
 		PropertyConfigurator.configure("Log4j.properties");
+		
 
 		try {
 			if (browsername.equalsIgnoreCase("CH")) {
