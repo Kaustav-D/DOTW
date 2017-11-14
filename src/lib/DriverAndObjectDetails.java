@@ -3,6 +3,7 @@ package lib;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -47,12 +48,15 @@ public class DriverAndObjectDetails {
 				System.setProperty("webdriver.chrome.driver", Config.getChromePath());
 				chromeOptions.addArguments("--start-maximized");
 				chromeOptions.addArguments("--disable-web-security");
-				chromeOptions.addArguments("--no-proxy-server");
+				//chromeOptions.addArguments("--no-proxy-server");
 				Map<String, Object> prefs = new HashMap<String, Object>();
 				prefs.put("credentials_enable_service", false);
 				prefs.put("profile.password_manager_enabled", false);
 				chromeOptions.setExperimentalOption("prefs", prefs);
-				wd = new ChromeDriver(chromeOptions);
+				DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+				setUniversalProxy(capabilities);
+				capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
+				wd = new ChromeDriver(capabilities);
 				return wd;
 			case FF:
 				wd = new FirefoxDriver();
@@ -64,6 +68,17 @@ public class DriverAndObjectDetails {
 			return null;
 
 		}
+	}
+	
+	
+	public static DesiredCapabilities  setUniversalProxy(DesiredCapabilities capa){
+		Proxy proxy = new Proxy();
+		proxy.setHttpProxy("proxy.cognizant.com:6050");
+		proxy.setSslProxy("proxy.cognizant.com:6050");
+		capa.setCapability("proxy", proxy);
+		
+		return capa;
+		
 	}
 
 }

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="1" total="2" passed="0">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="DOTWsuite" duration-ms="17067" started-at="2017-10-11T09:06:54Z" finished-at="2017-10-11T09:07:11Z">
+  <suite name="DOTWsuite" duration-ms="60030" started-at="2017-11-14T10:53:52Z" finished-at="2017-11-14T10:54:52Z">
     <groups>
     </groups>
-    <test name="MyAdminSmokeOne" duration-ms="17067" started-at="2017-10-11T09:06:54Z" finished-at="2017-10-11T09:07:11Z">
-      <class name="automationFramework.Accommodation_search_apply_filters_for_search_results">
-        <test-method status="FAIL" signature="login(java.lang.String)[pri:0, instance:automationFramework.Accommodation_search_apply_filters_for_search_results@3dfc5fb8]" name="login" duration-ms="14526" started-at="2017-10-11T14:36:54Z" finished-at="2017-10-11T14:37:08Z">
+    <test name="MyAdminSmokeOne" duration-ms="60030" started-at="2017-11-14T10:53:52Z" finished-at="2017-11-14T10:54:52Z">
+      <class name="automationFramework.transfer_Search_Apply_Filters_For_Search_Results">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:automationFramework.transfer_Search_Apply_Filters_For_Search_Results@971d0d8]" name="login" duration-ms="22751" started-at="2017-11-14T16:23:52Z" finished-at="2017-11-14T16:24:14Z">
           <params>
             <param index="0">
               <value>
@@ -15,94 +15,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [DOTWconnect.com::DOTWconnect.com: My Admin] but found [DOTWconnect.com :: Admin :: Login]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [DOTWconnect.com::DOTWconnect.com: My Admin] but found [DOTWconnect.com :: Admin :: Login]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at org.testng.Assert.assertEquals(Assert.java:188)
-	at automationFramework.Accommodation_search_apply_filters_for_search_results.login(Accommodation_search_apply_filters_for_search_results.java:88)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:automationFramework.Accommodation_search_apply_filters_for_search_results@3dfc5fb8]" name="getResult" is-config="true" duration-ms="0" started-at="2017-10-11T14:37:08Z" finished-at="2017-10-11T14:37:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login status=FAILURE method=Accommodation_search_apply_filters_for_search_results.login(java.lang.String)[pri:0, instance:automationFramework.Accommodation_search_apply_filters_for_search_results@3dfc5fb8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="SKIP" signature="searchaccomodation()[pri:0, instance:automationFramework.Accommodation_search_apply_filters_for_search_results@3dfc5fb8]" name="searchaccomodation" duration-ms="0" started-at="2017-10-11T14:37:08Z" depends-on-methods="automationFramework.Accommodation_search_apply_filters_for_search_results.login" finished-at="2017-10-11T14:37:08Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method Accommodation_search_apply_filters_for_search_results.searchaccomodation()[pri:0, instance:automationFramework.Accommodation_search_apply_filters_for_search_results@3dfc5fb8] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method Accommodation_search_apply_filters_for_search_results.searchaccomodation()[pri:0, instance:automationFramework.Accommodation_search_apply_filters_for_search_results@3dfc5fb8] depends on not successfully finished methods
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        <test-method status="PASS" signature="searchaccomodation()[pri:0, instance:automationFramework.transfer_Search_Apply_Filters_For_Search_Results@971d0d8]" name="searchaccomodation" duration-ms="37255" started-at="2017-11-14T16:24:14Z" depends-on-methods="automationFramework.transfer_Search_Apply_Filters_For_Search_Results.login" finished-at="2017-11-14T16:24:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchaccomodation -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.Accommodation_search_apply_filters_for_search_results@3dfc5fb8]" name="afterTest" is-config="true" duration-ms="2523" started-at="2017-10-11T14:37:08Z" finished-at="2017-10-11T14:37:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- automationFramework.Accommodation_search_apply_filters_for_search_results -->
+      </class> <!-- automationFramework.transfer_Search_Apply_Filters_For_Search_Results -->
     </test> <!-- MyAdminSmokeOne -->
   </suite> <!-- DOTWsuite -->
 </testng-results>

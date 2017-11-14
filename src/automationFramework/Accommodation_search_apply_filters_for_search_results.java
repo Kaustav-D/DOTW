@@ -138,6 +138,7 @@ public class Accommodation_search_apply_filters_for_search_results {
 			action.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Accommodation_search_apply_filters_for_search_results/Customer-filter-search-hotel.jpg");
+			//Clicking on Filter Customers Button
 			action.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Accommodation_search_apply_filters_for_search_results/Customer-list-search-hotel.jpg");
@@ -181,11 +182,11 @@ public class Accommodation_search_apply_filters_for_search_results {
 			String result = driverqa.findElement(NewAccoBooking.resultHotel).getText();
 			String expected = excel.getData(0, 10, 0);
 			Thread.sleep(2000);
-			obj.Takesnap(driverqa,Config.SnapShotPath() + "/Accommodation_search_apply_filters_for_search_results/search-hotel.jpg");
+			obj.Takesnap(driverqa,Config.SnapShotPath() + "/Tour_search_apply_filters_for_search_results/search-hotel.jpg");
 			Thread.sleep(1000);
 			driverqa.findElement(NewAccoBooking.roomtypes).click();
 			Thread.sleep(5000);
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Accommodation_search_apply_filters_for_search_results/final-search-hotel.jpg");
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Tour_search_apply_filters_for_search_results/final-search-hotel.jpg");
 			Assert.assertTrue(result.contains(expected));
 			test.log(LogStatus.INFO, "Ending HotelSearch");
 			test.log(LogStatus.PASS, "PASSED HotelSearch");

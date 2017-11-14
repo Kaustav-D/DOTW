@@ -5,14 +5,12 @@
   <test name="MyAdminSmokeOne(failed)">
     <parameter name="browsername" value="CH"/>
     <classes>
-      <class name="automationFramework.Accommodation_search_apply_filters_for_search_results">
+      <class name="automationFramework.transfer_Search_Apply_Filters_For_Search_Results">
         <methods>
           <include name="searchaccomodation"/>
-          <include name="afterTest"/>
-          <include name="login" invocation-numbers="0"/>
-          <include name="getResult"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- automationFramework.Accommodation_search_apply_filters_for_search_results -->
+      </class> <!-- automationFramework.transfer_Search_Apply_Filters_For_Search_Results -->
     </classes>
   </test> <!-- MyAdminSmokeOne(failed) -->
 </suite> <!-- Failed suite [DOTWsuite] -->

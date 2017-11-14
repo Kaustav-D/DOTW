@@ -6,6 +6,11 @@ public class NewAccoBooking {
 
     public static final By destCity = By.id("City");
     public static final By AccomUnit = By.id("Hotel");
+    public static final By transferName = By.xpath("//*[@id='Transfer']");
+    public static final By transferDate = By.name("transferDate");
+    public static final By transferTime = By.xpath("//*[@id='searchForm']/div/div[2]/div[3]/div/div/div[2]/select");
+    public static final By transferBookingChild=By.name("nbrChildren");
+    public static final By transferBookingChildAge=By.name("childrenAges[1]");
     public static final By inDate = By.xpath("//*[@id='fromDate']");
     public static final By outDate = By.xpath("//*[@id='toDate']");
     public static final By searchButton = By.xpath("//*[@id='searchForm']/div/div[3]/button");

@@ -1,39 +1,27 @@
 package automationFramework;
-
 import lib.DriverAndObjectDetails;
 import lib.DriverAndObjectDetails.DriverName;
 import lib.ExcelDataConfig;
 import lib.ExtentManager;
-
 import lib.Takescreenshot;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.testng.annotations.Test;
-
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-
 import ObjectRepository.HomePage;
 import ObjectRepository.LoginPage;
 import ObjectRepository.NewAccoBooking;
 import ObjectRepository.Operations;
 import ObjectRepository.PaymentPage;
 import Utility.Configuration;
-
 import org.testng.annotations.Parameters;
-
-
-
-
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -89,8 +77,8 @@ public class Accommodation_booking_for_adults_with_children {
 			driverqa.findElement(LoginPage.submit).click();
 			Thread.sleep(1000);
 			String expectedtitle = "DOTWconnect.com::DOTWconnect.com: My Admin";
-			String atualtitle = driverqa.getTitle();
-			Assert.assertEquals(atualtitle, expectedtitle);
+			String actualtitle = driverqa.getTitle();
+			Assert.assertEquals(actualtitle, expectedtitle);
 			test.log(LogStatus.INFO, "Ending Login");
 			test.log(LogStatus.PASS, "PASSED Login");
 			logger.info("Login Successful");
@@ -256,7 +244,6 @@ public class Accommodation_booking_for_adults_with_children {
 			rep.endTest(test);
 			rep.flush();
 			Assert.assertTrue(false, e.getMessage());
-
 		}
   }
  
