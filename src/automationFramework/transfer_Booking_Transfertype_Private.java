@@ -1,17 +1,9 @@
 package automationFramework;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
-
-import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -20,7 +12,6 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Parameters;
@@ -34,7 +25,6 @@ import ObjectRepository.HomePage;
 import ObjectRepository.LoginPage;
 import ObjectRepository.NewAccoBooking;
 import ObjectRepository.Operations;
-import ObjectRepository.PaymentPage;
 import Utility.Configuration;
 import lib.DriverAndObjectDetails;
 import lib.ExcelDataConfig;
@@ -42,7 +32,8 @@ import lib.ExtentManager;
 import lib.Takescreenshot;
 import lib.DriverAndObjectDetails.DriverName;
 
-public class transfer_Search_Apply_Filters_For_Search_Results {
+public class transfer_Booking_Transfertype_Private {
+	
 	Configuration Config = new Configuration();
 	Takescreenshot obj = new Takescreenshot();
 	LoginPage login = new LoginPage();
@@ -53,6 +44,7 @@ public class transfer_Search_Apply_Filters_For_Search_Results {
 	ExtentReports rep = ExtentManager.getInstance();
 	ExtentTest test;
 	Logger logger = Logger.getLogger("transfer_Search_Apply_Filters_For_Search_Results");
+	JavascriptExecutor js = (JavascriptExecutor)driverqa;
 	
 	@Test
 	@Parameters({ "browsername" })
@@ -127,7 +119,6 @@ public class transfer_Search_Apply_Filters_For_Search_Results {
 			rep.endTest(test);
 			rep.flush();
 		}
-				
 				logger.info("Selecting Customer");
 			     test.log(LogStatus.INFO, "Selecting Customer");
 				 try {
@@ -140,8 +131,7 @@ public class transfer_Search_Apply_Filters_For_Search_Results {
 					 Thread.sleep(2000);
 					 action.sendKeys(Keys.ENTER).build().perform();
 					 Thread.sleep(2000);
-					 
-					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer_booking_for_adults_with_children/Customer-list-book-hotel.jpg");
+					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer_booking_for_adults_with_children/Customer-list-transfer-book.jpg");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCustbook));
 					 driverqa.findElement(Operations.chooseCustbook).click();
 					Thread.sleep(1000);
@@ -163,11 +153,6 @@ public class transfer_Search_Apply_Filters_For_Search_Results {
 				 try{
 					 test.log(LogStatus.INFO, "Starting TransferSearch");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferName));
-					
-					 /*driver.findElement(NewAccoBooking.destCity).sendKeys(excel.getData(1, 7, 0));
-					 Thread.sleep(2000);
-					 action.sendKeys(Keys.ARROW_DOWN).build().perform();
-					 action.sendKeys(Keys.ENTER).build().perform();*/
 					 driverqa.findElement(NewAccoBooking.transferName).sendKeys(excel.getData(1, 10, 0));
 					 Thread.sleep(2000);
 					 action.sendKeys(Keys.ARROW_DOWN).build().perform();
@@ -176,19 +161,15 @@ public class transfer_Search_Apply_Filters_For_Search_Results {
 					 transferTime.selectByIndex(9);
 					 driverqa.findElement(NewAccoBooking.transferDate).clear();
 					 driverqa.findElement(NewAccoBooking.transferDate).sendKeys(excel.getData(1, 13, 0));
-					// action.sendKeys(Keys.ARROW_DOWN).build().perform();
 					 action.sendKeys(Keys.ENTER).build().perform();
-					/* driver.findElement(NewAccoBooking.outDate).clear();
-					 driver.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(1, 13, 1));*/
 					 String expected=excel.getData(1, 10, 0);
 					 Select noofchild = new Select(driverqa.findElement(NewAccoBooking.transferBookingChild));
 					 noofchild.selectByIndex(1);
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferBookingChildAge));
 					 Select childage = new Select(driverqa.findElement(NewAccoBooking.transferBookingChildAge));
 					 childage.selectByIndex(5);
-					 //driver.findElement(NewAccoBooking.allcheckbox).click();
 					 Thread.sleep(2000);
-					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer_booking_for_adults_with_children/Search-Hotel-filters-book-hotel.jpg");
+					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer_booking_for_adults_with_children/Search-Hotel-filters-transfer-book.jpg");
 					 driverqa.findElement(NewAccoBooking.searchButton).click();
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.resultHotel));
 					 String result= driverqa.findElement(NewAccoBooking.resultHotel).getText();
@@ -207,6 +188,71 @@ public class transfer_Search_Apply_Filters_For_Search_Results {
 					rep.flush();
 					Assert.assertTrue(false, e.getMessage());
 				}
+				 logger.info("Selecting Get Transfer");
+		         try {
+					driverqa.findElement(NewAccoBooking.transferGetTransfers).click();
+					//JavascriptExecutor jse = (JavascriptExecutor)driverqa;
+					//Scroll vertically downward by 250 pixels
+					js.executeScript("window.scrollBy(0,250)", "");
+					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferRadioSelection));
+					 driverqa.findElement(NewAccoBooking.transferRadioSelection).click();
+					 logger.info("Transfer Type Selected");
+					 test.log(LogStatus.INFO, "Start Booking");
+					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer_booking_for_adults_with_children/Selected-transfer type-available-book-transfer.jpg");
+					 Thread.sleep(1000);
+					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transProceedBook));
+					 driverqa.findElement(NewAccoBooking.transProceedBook).click();
+					 Thread.sleep(2000);
+					 logger.info("Entering First Passenger details");
+					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferFrstPaxFname));
+					 driverqa.findElement(NewAccoBooking.transferFrstPaxFname).sendKeys(excel.getData(1, 17, 0));
+					 Thread.sleep(2000);
+					 driverqa.findElement(NewAccoBooking.transferFrstPaxLname).sendKeys(excel.getData(1, 17, 1));
+					 Select firstPassengertitle = new Select(driverqa.findElement(NewAccoBooking.transferFrstPaxTitle));
+					 firstPassengertitle.selectByIndex(1);
+					 logger.info("Initiating Pick Up From Airport");
+					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferPickUp));
+					 driverqa.findElement(NewAccoBooking.transferPickUp).sendKeys(excel.getData(2, 2, 0));
+					 Thread.sleep(2000);
+					 driverqa.findElement(NewAccoBooking.transDropOff).sendKeys(excel.getData(2, 2, 1));
+					 Select airlineDetails = new Select(driverqa.findElement(NewAccoBooking.transferAirlineDetails));
+					 airlineDetails.selectByIndex(1);
+					 driverqa.findElement(NewAccoBooking.transferArrivingFrom).sendKeys(excel.getData(2, 2, 2));
+					 Thread.sleep(2000);
+					 action.sendKeys(Keys.ARROW_DOWN).build().perform();
+					 action.sendKeys(Keys.ENTER).build().perform();
+					 Thread.sleep(2000);
+					// JavascriptExecutor js = (JavascriptExecutor)driverqa;
+						//Scroll vertically downward by 250 pixels
+					 js.executeScript("window.scrollBy(0,250)", "");
+					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferFlightNo));
+					 driverqa.findElement(NewAccoBooking.transferFlightNo).sendKeys(excel.getData(2, 2, 3));
+					 Select estimateArrivalHrs=new Select(driverqa.findElement(NewAccoBooking.transferArrivalHour));
+					 estimateArrivalHrs.selectByIndex(1);
+					 Select estimateArrivalSecs=new Select(driverqa.findElement(NewAccoBooking.transferArrivalMins));
+					 estimateArrivalSecs.selectByIndex(1);
+					 Thread.sleep(3000);
+					 js.executeScript("window.scrollBy(0,250)", "");
+					 obj.Takesnap(driverqa, "D:/Test Repository/Test Screenshots/Transfer_booking_for_adults_with_children/Passenger-Details-transfer-book.jpg");
+					 driverqa.findElement(NewAccoBooking.bookBtn).click();
+					 logger.info("Entered Passenger details");
+					 Thread.sleep(4000);
+					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer_booking_for_adults_with_children/Confirm-Booking-transfer-book.jpg");
+					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transCntinueBook));
+					 driverqa.findElement(NewAccoBooking.transCntinueBook).click();
+					 test.log(LogStatus.INFO, "Ending TransferBook");
+					 test.log(LogStatus.PASS, "PASSED TransferBook");
+					 logger.info("Transfer Book Complete");
+					 rep.endTest(test);
+					 rep.flush();
+				} catch (Exception e) {
+					logger.info(e.getMessage());
+					test.log(LogStatus.FAIL, e.getMessage());
+					rep.endTest(test);
+					rep.flush();
+					Assert.assertTrue(false, e.getMessage());
+				}
+
 			}
 	
 	 @AfterMethod
@@ -235,4 +281,5 @@ public class transfer_Search_Apply_Filters_For_Search_Results {
                 e.printStackTrace();
             };
 		}*/
-			}
+
+}

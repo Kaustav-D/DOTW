@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-DOTWsuite">
-              <span class="suite-name border-passed">DOTWsuite</span>
+              <span class="suite-name border-failed">DOTWsuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-DOTWsuite" class="hide-methods failed suite-DOTWsuite"> (hide)</a> <!-- hide-methods failed suite-DOTWsuite -->
+                      <a href="#" panel-name="suite-DOTWsuite" class="show-methods failed suite-DOTWsuite"> (show)</a> <!-- show-methods failed suite-DOTWsuite -->
+                    </span>
+                    <div class="method-list-content failed suite-DOTWsuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DOTWsuite" title="automationFramework.transfer_Booking_Transfertype_Private" hash-for-method="searchaccomodation">searchaccomodation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-DOTWsuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,12 +115,7 @@
                     <div class="method-list-content passed suite-DOTWsuite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-DOTWsuite" title="automationFramework.transfer_Search_Apply_Filters_For_Search_Results" hash-for-method="login(CH)">login(CH)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-DOTWsuite" title="automationFramework.transfer_Search_Apply_Filters_For_Search_Results" hash-for-method="searchaccomodation">searchaccomodation</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DOTWsuite" title="automationFramework.transfer_Booking_Transfertype_Private" hash-for-method="login(CH)">login(CH)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-DOTWsuite -->
@@ -121,10 +130,34 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-DOTWsuite" class="panel DOTWsuite">
+          <div class="suite-DOTWsuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">automationFramework.transfer_Booking_Transfertype_Private</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchaccomodation">
+                  </a> <!-- searchaccomodation -->
+                  <span class="method-name">searchaccomodation</span>
+                  <div class="stack-trace">java.lang.AssertionError: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //button[@id=&apos;continueToBook&apos;]
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;PC235407&apos;, ip: &apos;10.227.13.52&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir8156_24577}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b2654e6d25ea3900ed4cfc4a0eb79499 expected [true] but found [false]
+	at automationFramework.transfer_Booking_Transfertype_Private.searchaccomodation(transfer_Booking_Transfertype_Private.java:297)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DOTWsuite-class-failed -->
           <div class="suite-DOTWsuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">automationFramework.transfer_Search_Apply_Filters_For_Search_Results</span>
+              <span class="class-name">automationFramework.transfer_Booking_Transfertype_Private</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -133,13 +166,6 @@
                   </a> <!-- login(CH) -->
                   <span class="method-name">login</span>
                   <span class="parameters">(CH)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchaccomodation">
-                  </a> <!-- searchaccomodation -->
-                  <span class="method-name">searchaccomodation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -157,7 +183,7 @@
   &lt;test name=&quot;MyAdminSmokeOne&quot;&gt;
     &lt;parameter name=&quot;browsername&quot; value=&quot;CH&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;automationFramework.transfer_Search_Apply_Filters_For_Search_Results&quot;/&gt;
+      &lt;class name=&quot;automationFramework.transfer_Booking_Transfertype_Private&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- MyAdminSmokeOne --&gt;
 &lt;/suite&gt; &lt;!-- DOTWsuite --&gt;
@@ -200,17 +226,17 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'searchaccomodation')
-data.setCell(0, 2, 'automationFramework.transfer_Search_Apply_Filters_For_Search_Results')
-data.setCell(0, 3, 37255);
+data.setCell(0, 2, 'automationFramework.transfer_Booking_Transfertype_Private')
+data.setCell(0, 3, 115862);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'login')
-data.setCell(1, 2, 'automationFramework.transfer_Search_Apply_Filters_For_Search_Results')
-data.setCell(1, 3, 22751);
+data.setCell(1, 2, 'automationFramework.transfer_Booking_Transfertype_Private')
+data.setCell(1, 3, 24335);
 window.suiteTableData['DOTWsuite']= { tableData: data, tableDiv: 'times-div-DOTWsuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-DOTWsuite">
               </div> <!-- times-div-DOTWsuite -->
             </div> <!-- times-div -->
@@ -236,15 +262,25 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">automationFramework.transfer_Search_Apply_Filters_For_Search_Results</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">automationFramework.transfer_Booking_Transfertype_Private</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">login(CH)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=login status=SUCCESS method=transfer_Booking_Transfertype_Private.login(java.lang.S...)</span>
+                <span class="method-start">24337 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">searchaccomodation</span>
-                <span class="method-start">22754 ms</span>
+                <span class="method-start">24341 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=searchaccomodation status=FAILURE method=transfer_Booking_Transfertype_Private.sear...)</span>
+                <span class="method-start">140210 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

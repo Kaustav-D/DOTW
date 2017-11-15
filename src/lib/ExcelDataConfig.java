@@ -8,6 +8,8 @@ import java.io.IOException;
 
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -29,9 +31,12 @@ public class ExcelDataConfig {
 }
  //=======Read Excel=========
  public String getData(int sheetnumber,int row,int column)
-   {
+   {	
+	 DataFormatter dataFormattter = new DataFormatter();
 	 sheet1=wb.getSheetAt(sheetnumber);
-	 String data=sheet1.getRow(row).getCell(column).getStringCellValue();
+	 //sheet1.getRow(row).getCell(column)
+	 Cell Celldata= sheet1.getRow(row).getCell(column);
+	 String data = dataFormattter.formatCellValue(Celldata);
 	 return data;
 	 }
  //=======Writing in Excel=========

@@ -254,3 +254,447 @@ Session ID: 790497f862270298ba10d6b1dd89a10f
 2017-11-14 16:24:34,633 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
 2017-11-14 16:24:34,634 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
 2017-11-14 16:24:52,072 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Hotel Search Complete
+2017-11-14 16:47:00,782 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-14 16:47:07,698 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-14 16:47:18,387 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-14 16:47:18,593 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-14 16:47:25,789 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-14 16:47:25,790 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-14 16:47:39,384 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2017-11-14 16:47:39,385 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2017-11-14 16:47:57,907 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Hotel Search Complete
+2017-11-14 19:16:08,105 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-14 19:16:13,861 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-14 19:16:22,690 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-14 19:16:22,795 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-14 19:16:29,196 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-14 19:16:29,197 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-14 19:16:40,854 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2017-11-14 19:16:40,855 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2017-11-14 19:16:59,486 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2017-11-14 19:16:59,909 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2017-11-14 19:17:30,685 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='transfer_108675']/div[3]/div/div[1]/div[2]/div/div[1]/label/input
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir14052_23023}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b920b96fa3250c43e33cebcf155dacef
+2017-11-14 19:33:49,718 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-14 19:33:49,723 - transfer_Search_Apply_Filters_For_Search_Results -INFO - 
+2017-11-14 19:34:30,551 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-14 19:34:35,260 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-14 19:34:44,913 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-14 19:34:44,983 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-14 19:34:50,583 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-14 19:34:50,584 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-14 19:35:01,861 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2017-11-14 19:35:01,862 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2017-11-14 19:35:14,904 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2017-11-14 19:35:15,230 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2017-11-14 19:35:17,061 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2017-11-14 19:35:48,413 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='roomList_84722']/div[4]/div[3]/button
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f0bc74e3-0884-4a5b-824f-25b51f7386cb
+2017-11-14 19:45:47,386 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-14 19:45:52,192 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-14 19:46:01,996 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-14 19:46:02,065 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-14 19:46:08,491 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-14 19:46:08,492 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-14 19:46:45,670 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='mainContainer']/form/div[1]/div/table/tbody/tr/td[7]/a
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fa098da5-4f1c-4fcd-9dbb-873847f7b947
+2017-11-14 19:52:17,541 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-14 19:52:17,545 - transfer_Search_Apply_Filters_For_Search_Results -INFO - 
+2017-11-14 19:53:19,677 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-14 19:53:25,814 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-14 19:53:36,490 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-14 19:53:36,557 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-14 19:53:43,123 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-14 19:53:43,124 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-14 19:53:54,056 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2017-11-14 19:53:54,057 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2017-11-14 19:54:06,923 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2017-11-14 19:54:07,251 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2017-11-14 19:54:09,277 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2017-11-14 19:54:40,832 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //button[@id='continueToBook']
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b570e54a-854a-4a15-8817-daf161928fd0
+2017-11-14 20:03:01,994 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-14 20:03:06,326 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-14 20:03:15,937 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-14 20:03:16,006 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-14 20:03:21,872 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-14 20:03:21,873 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-14 20:03:32,530 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2017-11-14 20:03:32,531 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2017-11-14 20:03:58,410 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2017-11-14 20:03:58,811 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2017-11-14 20:04:00,598 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2017-11-14 20:04:04,129 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entering First Passenger details
+2017-11-14 20:04:07,286 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Initiating Pick Up From Airport
+2017-11-14 20:04:12,739 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Cannot get a text value from a numeric cell
+2017-11-14 20:18:54,749 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-14 20:18:59,384 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-14 20:19:12,967 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-14 20:19:13,032 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-14 20:19:18,969 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-14 20:19:18,969 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-14 20:19:55,322 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='mainContainer']/form/div[1]/div/table/tbody/tr/td[7]/a
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0c46c891-6651-4d76-aefc-0955bf209598
+2017-11-14 20:26:45,973 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-14 20:26:50,715 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-14 20:27:03,470 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-14 20:27:03,539 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-14 20:27:10,122 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-14 20:27:10,123 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-14 20:27:20,589 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2017-11-14 20:27:20,589 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2017-11-14 20:27:33,537 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2017-11-14 20:27:33,873 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2017-11-14 20:27:35,776 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2017-11-14 20:27:39,265 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entering First Passenger details
+2017-11-14 20:27:42,454 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Initiating Pick Up From Airport
+2017-11-14 20:27:48,307 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Cannot get a text value from a numeric cell
+2017-11-14 20:29:55,574 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-14 20:29:59,881 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-14 20:30:11,162 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-14 20:30:11,231 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-14 20:30:17,626 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-14 20:30:17,626 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-14 20:30:29,338 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2017-11-14 20:30:29,339 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2017-11-14 20:30:42,106 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2017-11-14 20:30:42,417 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2017-11-14 20:30:44,248 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2017-11-14 20:30:47,760 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entering First Passenger details
+2017-11-14 20:30:50,878 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Initiating Pick Up From Airport
+2017-11-14 20:30:56,648 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Cannot get a text value from a numeric cell
+2017-11-14 20:31:35,539 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-14 20:31:40,217 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-14 20:31:50,169 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-14 20:31:50,235 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-14 20:31:56,358 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-14 20:31:56,358 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-14 20:32:07,038 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2017-11-14 20:32:07,039 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2017-11-14 20:32:19,720 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2017-11-14 20:32:20,039 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2017-11-14 20:32:21,846 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2017-11-14 20:32:25,359 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entering First Passenger details
+2017-11-14 20:32:28,488 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Initiating Pick Up From Airport
+2017-11-14 20:32:34,217 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Cannot get a text value from a numeric cell
+2017-11-15 12:40:23,088 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 12:40:28,027 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 12:40:37,934 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 12:40:38,027 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 12:40:44,631 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-15 12:40:44,645 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 12:41:14,362 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: eba42962-0efd-4dcb-8687-347a041eee6e
+2017-11-15 13:08:38,905 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 13:08:43,495 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 13:08:53,475 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 13:08:53,562 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 13:09:00,150 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-15 13:09:00,150 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 13:09:14,178 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2017-11-15 13:09:14,179 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2017-11-15 13:09:54,598 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 734d634c-22ca-4059-b3e0-f48575b0f4e5
+2017-11-15 14:56:23,664 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 14:56:28,456 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 14:56:40,276 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 14:56:40,361 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 14:56:46,079 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-15 14:56:46,080 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 14:57:22,712 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='mainContainer']/form/div[1]/div/table/tbody/tr/td[7]/a
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 83a5d549-ab4b-42b9-a537-5e0c92fe4ef0
+2017-11-15 15:07:30,774 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 15:07:36,094 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 15:07:48,197 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 15:07:48,271 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 15:08:20,316 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='MenuBar_212']/div[2]/ul[1]/li[2]/ul/li[3]/a
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 000787d2-1490-428d-838a-30453e6a9f94
+2017-11-15 15:08:21,361 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 15:09:43,660 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 15:09:48,347 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 15:10:01,378 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 15:10:01,471 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 15:10:33,549 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='MenuBar_212']/div[2]/ul[1]/li[2]/ul/li[3]/a
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 99e6e41e-4a1a-4c20-8eb7-b99c46c3aa62
+2017-11-15 15:10:34,024 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 15:11:04,166 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='companyName']
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 99e6e41e-4a1a-4c20-8eb7-b99c46c3aa62
+2017-11-15 15:12:30,256 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 15:12:35,118 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 15:12:46,837 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 15:12:46,912 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 15:13:18,663 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //a[contains(.,'Transfer Booking')]
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6a27fabb-638a-4c52-b932-0df5e58cf276
+2017-11-15 15:13:19,040 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 15:14:18,234 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 15:14:23,141 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 15:14:40,350 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 15:14:40,426 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 15:14:54,743 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-15 15:14:54,743 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 15:15:31,503 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='mainContainer']/form/div[1]/div/table/tbody/tr/td[7]/a
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 112820bd-266f-472f-81f9-aeee410065a1
+2017-11-15 15:16:17,237 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 15:16:24,092 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 15:16:33,466 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 15:16:33,543 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 15:18:22,690 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 15:18:29,687 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 15:18:38,659 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 15:18:38,737 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 15:19:13,437 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='MenuBar_212']/div[2]/ul[1]/li[2]/ul/li[3]/a
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir11252_9991}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 681234e0cb06ba925c50585927ace63d
+2017-11-15 15:19:13,919 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 15:28:04,868 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 15:28:11,218 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 15:28:20,496 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 15:28:20,566 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 15:29:59,839 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 15:30:05,822 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 15:30:16,124 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 15:30:16,201 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 15:30:48,932 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //a[contains(.,'Transfer Booking')]
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir15268_4467}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: ea1c3b60c09185193247f492a2142804
+2017-11-15 15:30:49,323 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 15:31:19,663 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='companyName']
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir15268_4467}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: ea1c3b60c09185193247f492a2142804
+2017-11-15 15:32:38,549 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 15:32:45,942 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 15:32:56,110 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 15:32:56,178 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 15:34:05,824 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 15:34:11,278 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 15:34:20,450 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 15:34:20,537 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 15:34:53,294 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[contains(text(), 'Transfer Booking')]
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir5492_31455}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 29069b768c7174ce492e692db15e1b43
+2017-11-15 15:34:53,641 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 15:35:23,841 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='companyName']
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir5492_31455}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 29069b768c7174ce492e692db15e1b43
+2017-11-15 15:37:07,841 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 15:37:13,117 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 15:37:22,341 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 15:37:22,419 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 15:37:53,110 - transfer_Search_Apply_Filters_For_Search_Results -INFO - chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.48 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir11580_3828}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e47bc87f0dffc31ece761d97050364d9
+*** Element info: {Using=xpath, value=[@id='MenuBar_212']/div[2]/ul[1]/li[2]/ul/li[3]/a}
+2017-11-15 15:37:53,514 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 15:37:58,102 - transfer_Search_Apply_Filters_For_Search_Results -INFO - chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.58 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir11580_3828}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e47bc87f0dffc31ece761d97050364d9
+*** Element info: {Using=xpath, value=//*[@id='companyName']}
+2017-11-15 15:41:32,009 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 15:41:39,742 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 15:41:51,884 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 15:41:51,959 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 15:42:24,881 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: [@id='MenuBar_212']/div[2]/ul[1]/li[2]/ul/li[3]/a
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir14020_22417}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 67ef06cc263d785f7a06f0c9f547582f
+2017-11-15 15:42:25,322 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 15:43:01,638 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 15:43:06,341 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 15:43:15,886 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 15:43:15,957 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 15:43:47,785 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: [@id='MenuBar_212']/div[2]/ul[1]/li[2]/ul/li[3]/a
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir11780_31926}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: aa13d376660c30c48a3e571143f2b240
+2017-11-15 15:43:48,161 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 15:44:18,206 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='companyName']
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir11780_31926}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: aa13d376660c30c48a3e571143f2b240
+2017-11-15 15:45:24,687 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 15:45:30,184 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 15:45:39,765 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 15:45:39,854 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 15:45:46,962 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-15 15:45:46,963 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 15:46:00,040 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2017-11-15 15:46:00,048 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2017-11-15 15:46:25,593 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2017-11-15 15:46:25,911 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2017-11-15 15:46:28,406 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2017-11-15 15:46:32,438 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entering First Passenger details
+2017-11-15 15:46:36,700 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Initiating Pick Up From Airport
+2017-11-15 15:46:46,957 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Cannot get a text value from a numeric cell
+2017-11-15 15:56:56,470 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 15:57:03,119 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 15:57:14,171 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 15:57:14,272 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 15:57:22,074 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-15 15:57:22,075 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 15:57:35,893 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2017-11-15 15:57:35,895 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2017-11-15 15:58:06,388 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2017-11-15 15:58:07,006 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2017-11-15 15:58:09,971 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2017-11-15 15:58:14,261 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entering First Passenger details
+2017-11-15 15:58:19,322 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Initiating Pick Up From Airport
+2017-11-15 15:58:31,428 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Cannot get a text value from a numeric cell
+2017-11-15 16:10:51,539 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 16:10:57,730 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 16:11:09,241 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 16:11:09,411 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 16:11:17,422 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-15 16:11:17,423 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 16:11:31,016 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2017-11-15 16:11:31,016 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2017-11-15 16:12:02,853 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2017-11-15 16:12:03,417 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2017-11-15 16:12:06,351 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2017-11-15 16:12:10,605 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entering First Passenger details
+2017-11-15 16:12:15,566 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Initiating Pick Up From Airport
+2017-11-15 16:12:35,437 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entered Passenger details
+2017-11-15 16:13:11,225 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //button[@id='continueToBook']
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir15036_8544}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 94ab5966e63373ba85c9263dfeed142a
+2017-11-15 16:22:42,634 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 16:22:48,662 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 16:22:58,059 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 16:22:58,139 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 16:23:04,896 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-15 16:23:04,908 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 16:23:17,284 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2017-11-15 16:23:17,284 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2017-11-15 16:23:42,605 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2017-11-15 16:23:42,944 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2017-11-15 16:23:46,001 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2017-11-15 16:24:17,382 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='transfer_131305']/div[5]/button
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir11080_7088}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: ca7200f2eb4e812c4bdf521a82a7b787
+2017-11-15 16:26:22,288 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 16:26:27,721 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 16:26:37,339 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 16:26:37,400 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 16:26:44,345 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-15 16:26:44,346 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 16:26:56,851 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2017-11-15 16:26:56,860 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2017-11-15 16:27:21,967 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2017-11-15 16:27:22,304 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2017-11-15 16:27:24,307 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2017-11-15 16:27:55,789 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='transfer_131305']/div[5]/button
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir7160_29333}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 64ed9ca2283b6a945d1bede133af4b19
+2017-11-15 16:30:16,047 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2017-11-15 16:30:23,284 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2017-11-15 16:30:32,732 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2017-11-15 16:30:32,819 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2017-11-15 16:30:43,946 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2017-11-15 16:30:43,957 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2017-11-15 16:30:55,822 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2017-11-15 16:30:55,822 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2017-11-15 16:31:24,003 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2017-11-15 16:31:24,384 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2017-11-15 16:31:27,020 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2017-11-15 16:31:31,018 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entering First Passenger details
+2017-11-15 16:31:35,285 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Initiating Pick Up From Airport
+2017-11-15 16:31:51,754 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entered Passenger details
+2017-11-15 16:32:28,548 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //button[@id='continueToBook']
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir8156_24577}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b2654e6d25ea3900ed4cfc4a0eb79499

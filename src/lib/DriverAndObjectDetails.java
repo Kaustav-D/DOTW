@@ -71,12 +71,11 @@ public class DriverAndObjectDetails {
 	}
 	
 	
-	public static DesiredCapabilities  setUniversalProxy(DesiredCapabilities capa){
+	public static DesiredCapabilities setUniversalProxy(DesiredCapabilities capa){
 		Proxy proxy = new Proxy();
 		proxy.setHttpProxy("proxy.cognizant.com:6050");
 		proxy.setSslProxy("proxy.cognizant.com:6050");
 		capa.setCapability("proxy", proxy);
-		
 		return capa;
 		
 	}

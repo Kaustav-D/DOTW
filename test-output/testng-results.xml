@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="DOTWsuite" duration-ms="60030" started-at="2017-11-14T10:53:52Z" finished-at="2017-11-14T10:54:52Z">
+  <suite name="DOTWsuite" duration-ms="140230" started-at="2017-11-15T11:00:08Z" finished-at="2017-11-15T11:02:28Z">
     <groups>
     </groups>
-    <test name="MyAdminSmokeOne" duration-ms="60030" started-at="2017-11-14T10:53:52Z" finished-at="2017-11-14T10:54:52Z">
-      <class name="automationFramework.transfer_Search_Apply_Filters_For_Search_Results">
-        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:automationFramework.transfer_Search_Apply_Filters_For_Search_Results@971d0d8]" name="login" duration-ms="22751" started-at="2017-11-14T16:23:52Z" finished-at="2017-11-14T16:24:14Z">
+    <test name="MyAdminSmokeOne" duration-ms="140230" started-at="2017-11-15T11:00:08Z" finished-at="2017-11-15T11:02:28Z">
+      <class name="automationFramework.transfer_Booking_Transfertype_Private">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:automationFramework.transfer_Booking_Transfertype_Private@4206a205]" name="login" duration-ms="24335" started-at="2017-11-15T16:30:08Z" finished-at="2017-11-15T16:30:32Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,80 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="searchaccomodation()[pri:0, instance:automationFramework.transfer_Search_Apply_Filters_For_Search_Results@971d0d8]" name="searchaccomodation" duration-ms="37255" started-at="2017-11-14T16:24:14Z" depends-on-methods="automationFramework.transfer_Search_Apply_Filters_For_Search_Results.login" finished-at="2017-11-14T16:24:52Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:automationFramework.transfer_Booking_Transfertype_Private@4206a205]" name="getResult" is-config="true" duration-ms="4" started-at="2017-11-15T16:30:32Z" finished-at="2017-11-15T16:30:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=transfer_Booking_Transfertype_Private.login(java.lang.String)[pri:0, instance:automationFramework.transfer_Booking_Transfertype_Private@4206a205] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="searchaccomodation()[pri:0, instance:automationFramework.transfer_Booking_Transfertype_Private@4206a205]" name="searchaccomodation" duration-ms="115862" started-at="2017-11-15T16:30:32Z" depends-on-methods="automationFramework.transfer_Booking_Transfertype_Private.login" finished-at="2017-11-15T16:32:28Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Timed out after 30 seconds waiting for visibility of element located by By.xpath: //button[@id='continueToBook']
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir8156_24577}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b2654e6d25ea3900ed4cfc4a0eb79499 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //button[@id='continueToBook']
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC235407', ip: '10.227.13.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\438816\AppData\Local\Temp\scoped_dir8156_24577}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b2654e6d25ea3900ed4cfc4a0eb79499 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at automationFramework.transfer_Booking_Transfertype_Private.searchaccomodation(transfer_Booking_Transfertype_Private.java:297)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchaccomodation -->
-      </class> <!-- automationFramework.transfer_Search_Apply_Filters_For_Search_Results -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:automationFramework.transfer_Booking_Transfertype_Private@4206a205]" name="getResult" is-config="true" duration-ms="4" started-at="2017-11-15T16:32:28Z" finished-at="2017-11-15T16:32:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchaccomodation status=FAILURE method=transfer_Booking_Transfertype_Private.searchaccomodation()[pri:0, instance:automationFramework.transfer_Booking_Transfertype_Private@4206a205] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- automationFramework.transfer_Booking_Transfertype_Private -->
     </test> <!-- MyAdminSmokeOne -->
   </suite> <!-- DOTWsuite -->
 </testng-results>

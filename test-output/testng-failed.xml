@@ -5,12 +5,13 @@
   <test name="MyAdminSmokeOne(failed)">
     <parameter name="browsername" value="CH"/>
     <classes>
-      <class name="automationFramework.transfer_Search_Apply_Filters_For_Search_Results">
+      <class name="automationFramework.transfer_Booking_Transfertype_Private">
         <methods>
           <include name="searchaccomodation"/>
+          <include name="getResult"/>
           <include name="login"/>
         </methods>
-      </class> <!-- automationFramework.transfer_Search_Apply_Filters_For_Search_Results -->
+      </class> <!-- automationFramework.transfer_Booking_Transfertype_Private -->
     </classes>
   </test> <!-- MyAdminSmokeOne(failed) -->
 </suite> <!-- Failed suite [DOTWsuite] -->
