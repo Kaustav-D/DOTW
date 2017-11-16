@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="DOTWsuite">
 <test name="MyAdminSmokeOne" >
-<parameter name="browsername" value="CH"/>
+<parameter name="browsername" value="FF"/>
 <classes> 
-<class name="automationFramework.transfer_Booking_Transfertype_Private" />
+<class name="automationFramework.View_Reservationof_ServiceType_Transfer"/>
 </classes> 
 </test>
 </suite>

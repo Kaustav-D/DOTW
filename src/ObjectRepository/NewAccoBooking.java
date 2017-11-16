@@ -12,7 +12,11 @@ public class NewAccoBooking {
     public static final By transferBookingChild=By.name("nbrChildren");
     public static final By transferBookingChildAge=By.name("childrenAges[1]");
     public static final By transferGetTransfers=By.xpath("//*[@id='searchResults']/div[3]/div[3]/button");
+    public static final By transferType=By.name("transferType");
+    public static final By pickUpFrom=By.name("pickUp");
+    public static final By dropOffTo=By.name("dropOff");
     public static final By transferRadioSelection = By.xpath("//input[@data-capacity='3']");
+    public static final By transferRadioScheduled = By.xpath("//input[@data-capacity='0']");
     public static final By transferFChildren=By.xpath("//*[@id='details_0']/div[2]/div[1]/div[2]/div/select");
     public static final By transferSChildren=By.xpath("//*[@id='details_1']/div[2]/div[1]/div[2]/div/select");
     public static final By transferFrstPaxTitle=By.name("title[0]");
@@ -53,5 +57,13 @@ public class NewAccoBooking {
     public static final By bookBtn = By.xpath("//*[@id='continueToBook']");
 
     public static final By confirmBook = By.xpath("//*[@id='table_bookItinerary']/form/div[2]/div[2]/a");
+    public static final By prodctType = By.xpath("//*[@id='productType']");
+    public static final By dOTWRef = By.xpath("//*[@id='referenceNumber']");
+  //  public static final By TRNNum = By.xpath("//*[@id='mainContainer']/div[1]/div/div[1]/div[1]/h3");
+    //public static final By TRNNum = By.xpath("//div[@id='mainContainer']//a[contains(@class,'col-5')andcontains(@href,'	Itinerary: ')]");
+    public static final By TRNNum = By.xpath("//*[@id='mainContainer']/div[1]/div/div[1]/div[1]/h3");
+  
+    public static final By CROsearch = By.xpath("//*[@id='croSearchForm']/div/div[3]/button");
+    public static final By finalTRN = By.xpath("//*[@id='resultsBody']/tbody/tr[2]/td[2]/strong");
 
 }

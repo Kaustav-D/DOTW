@@ -32,7 +32,7 @@ import lib.ExtentManager;
 import lib.Takescreenshot;
 import lib.DriverAndObjectDetails.DriverName;
 
-public class transfer_Booking_Transfertype_Private {
+public class Transfer_Booking_Transfertype_Private {
 	
 	Configuration Config = new Configuration();
 	Takescreenshot obj = new Takescreenshot();
@@ -44,7 +44,7 @@ public class transfer_Booking_Transfertype_Private {
 	ExtentReports rep = ExtentManager.getInstance();
 	ExtentTest test;
 	Logger logger = Logger.getLogger("transfer_Search_Apply_Filters_For_Search_Results");
-	JavascriptExecutor js = (JavascriptExecutor)driverqa;
+	
 	
 	@Test
 	@Parameters({ "browsername" })
@@ -174,7 +174,7 @@ public class transfer_Booking_Transfertype_Private {
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.resultHotel));
 					 String result= driverqa.findElement(NewAccoBooking.resultHotel).getText();
 					 Thread.sleep(2000);
-					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer_booking_for_adults_with_children/Search-Result-book-hotel.jpg");
+					 //obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer_booking_for_adults_with_children/Search-Result-transfer-book.jpg");
 					 Assert.assertTrue(result.contains(expected));
 					 test.log(LogStatus.INFO, "Ending TransferSearch");
 					 test.log(LogStatus.PASS, "PASSED TransferSearch");
@@ -191,9 +191,9 @@ public class transfer_Booking_Transfertype_Private {
 				 logger.info("Selecting Get Transfer");
 		         try {
 					driverqa.findElement(NewAccoBooking.transferGetTransfers).click();
-					//JavascriptExecutor jse = (JavascriptExecutor)driverqa;
+					JavascriptExecutor jse = (JavascriptExecutor)driverqa;
 					//Scroll vertically downward by 250 pixels
-					js.executeScript("window.scrollBy(0,250)", "");
+					jse.executeScript("window.scrollBy(0,250)", "");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferRadioSelection));
 					 driverqa.findElement(NewAccoBooking.transferRadioSelection).click();
 					 logger.info("Transfer Type Selected");
@@ -222,7 +222,7 @@ public class transfer_Booking_Transfertype_Private {
 					 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 					 action.sendKeys(Keys.ENTER).build().perform();
 					 Thread.sleep(2000);
-					// JavascriptExecutor js = (JavascriptExecutor)driverqa;
+					JavascriptExecutor js = (JavascriptExecutor)driverqa;
 						//Scroll vertically downward by 250 pixels
 					 js.executeScript("window.scrollBy(0,250)", "");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferFlightNo));
@@ -238,8 +238,6 @@ public class transfer_Booking_Transfertype_Private {
 					 logger.info("Entered Passenger details");
 					 Thread.sleep(4000);
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer_booking_for_adults_with_children/Confirm-Booking-transfer-book.jpg");
-					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transCntinueBook));
-					 driverqa.findElement(NewAccoBooking.transCntinueBook).click();
 					 test.log(LogStatus.INFO, "Ending TransferBook");
 					 test.log(LogStatus.PASS, "PASSED TransferBook");
 					 logger.info("Transfer Book Complete");
@@ -263,13 +261,13 @@ public class transfer_Booking_Transfertype_Private {
 			rep.endTest(test);
 		}
 
-		@AfterTest
+		/*@AfterTest
 		public void afterTest() {
 
 			rep.endTest(test);
 			rep.flush();
 			driverqa.close();
-		}
+		}*/
 		
 		/*@AfterClass
 		public void killDriver() {

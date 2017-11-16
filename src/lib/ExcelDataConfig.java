@@ -17,16 +17,19 @@ public class ExcelDataConfig {
 	XSSFWorkbook wb;
 	XSSFSheet sheet1;
 	FileOutputStream fout;
+	FileInputStream fis;
 	File src;
-    public ExcelDataConfig(String excelPath) {
+    public ExcelDataConfig(String excelPath) throws IOException {
     try {
 	src= new File(excelPath);
-    FileInputStream fis= new FileInputStream(src);
+    fis= new FileInputStream(src);
 	wb=new XSSFWorkbook(fis);
 			
 			} catch (Exception e) {
 			
 			System.out.println(e.getMessage());
+		}finally{
+			fis.close();
 		}
 }
  //=======Read Excel=========
@@ -40,18 +43,19 @@ public class ExcelDataConfig {
 	 return data;
 	 }
  //=======Writing in Excel=========
- /*public void putData(int sheetnumber,int row,int column,String value) throws Exception
- //{
-	 //fout= new FileOutputStream(src);
-	 //sheet1=wb.getSheetAt(sheetnumber);
-	 //sheet1.getRow(row).createCell(column).setCellValue(value);
-	 //try {
-		//wb.write(fout);
-		//wb.close();
-	//} catch (Exception e) {
-		// TODO Auto-generated catch block
-		//System.out.println(e.getMessage());
-	//}
+ public String putData(int sheetnumber,int row,int column,String value) throws Exception
+ {
+	 fout= new FileOutputStream(src);
+	 sheet1=wb.getSheetAt(sheetnumber);
+	 sheet1.getRow(row).createCell(column).setCellValue(value);
+	 try {
+		wb.write(fout);
+		fout.close();
+	} catch (Exception e) {
+		
+		System.out.println(e.getMessage());
+	}
+	return value;
 	
-		}*/
+		}
 }
